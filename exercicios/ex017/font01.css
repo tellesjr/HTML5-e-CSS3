@@ -1,0 +1,30 @@
+@charset "UTF-8 ";
+body {
+    
+    font-family: 'work sans', arial, helvetica, sans-serif;
+
+    /* Medidas Absolutas
+
+    cm, mm, in, px, pt, pc
+    
+    Medidas Relativas 
+
+    em, ex, rem, vw, vh, %
+
+    obs: 16px é igual a 1em (tamnho padrão da letra) */
+
+    /* Peso da fonte */
+
+    font-size: 1em;
+    font-weight: bolder; /* mais negrito */ 
+    /* lighter, normal, bold, bolder */
+    font-style:italic;
+    text-decoration: underline;
+    /* shorthand font
+
+    - font-style -> font-weight -> font-size -> font-family  */
+
+
+
+
+}

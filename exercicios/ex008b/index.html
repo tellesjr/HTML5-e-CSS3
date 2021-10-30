@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Outras Formatações</title>
+    <style>
+        body {
+            background-color: silver;
+            font: normal 12pt arial;
+            color: black;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Outras Formatações</h1>
+    <h2>Codigo-Fonte / Pré-Formatação</h2>
+    <p>O comando document.getElementById('teste') é escrito em linguagem JavaScript.</p>
+    <p>Perceba como é dificil ler o codigo acima com a fonte padrão. veja abaixo o mesmo codigo envelopado com a tag &lt;code&gt;</p>
+    <p><code>document.getElementById('teste')</code><p>
+    <p>Usamos essa tag para deixar a fonte mono-espaçada.</p>
+    <p>Veja abaixo um codigo em linguagem Python apenas com a tag &lt;code&gt;</p>   
+    <code>
+        num = imput(int('Digite um número'))
+        if num % 2 == 0:
+        print(f'O número {num} é PAR)
+        else:
+            print(f'O número {num} é IMPAR)
+        print('fim do programa')
+    </code>
+    <p>Perceba que o código não ficou com uma estrutura de alinhamento de código. Para resolver esse problema podemos usar a tag &lt;pre&gt; envelopando a tag &lt;code&gt;. Veja abaixo.</p>
+    <pre>
+        <code>
+    num = imput(int('Digite um número'))
+    if num % 2 == 0:
+    print(f'O número {num} é PAR)
+    else:
+        print(f'O número {num} é IMPAR)
+    print('fim do programa')
+        </code>
+    </pre>
+    <p>Usando essa tag você consegue conservar a estrutura e alinhamento dos códigos ou qualquer outro texto que você queira que fique examente como escreveu, com os estapaços e alinhamentos. Você pode tambem usar as teclas CTRL+TAB ou TAB para acrescentar ou diminuir a tabulação.
+    </p>
+    <h2>Citações</h2>
+    <p>Como diria o pai do meu amigo: <q>O computador é um burro muito rápido.</q></p>
+    <p>Nesta citação acima foi usando a tag &lt;q&gt;. </p>
+    <h2>Citações completa</h2>
+    <p>Para isso use a tag &lt;blockquote&gt;, você pode incluir o parâmetro (cite="").</p>
+    <p>Segundo Maurício Samy, no seu livro HTML e CSS:</p>
+    <blockquote cite="https://www.google.com.br/books/edition/Fundamentos_de_HTML5_e_CSS3/2iPYCQAAQBAJ?hl=pt-BR&gbpv=1&dq=html&printsec=frontcover">
+        Assim, marcação HTML pode ser considerada um dos idiomas.
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>A tag &lt;abbr&gt; permite que quando ao passar o mouse sobre a parte abreviada surja uma frase dizendo o que significa. </p>
+    <p>Estou Aprendendo <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading style sheets">CSS</abbr>. Estou adorando!</p>
+    <h2>Texto invertido</h2>
+    <p>Coisa em HTML!</p>
+    tag &lt;bdo&gt;
+    <p><bdo dir="rtl">Coisa em HTML!</bdo>
+    </p>
+</body>
+</html>

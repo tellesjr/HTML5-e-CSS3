@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico"type="image/x-icon">
+    <title>Formatação de Texto</title>
+    <style>
+        mark {
+            background-color:magenta;
+        }
+    </style>
+</head>
+<body>
+    <h1>Principais Formataçãoes</h1>
+    <h2>Negrigo / Destaque</h2>
+    <p>Nesta frase temos um <b>termo em negrito</b> usando a tag &lt;b&gt; NÃO Semântica (forma sem sentido).</p>
+    <p>Nesta frase temos um <strong> termo em destaque</strong> usando a tag &lt;strong&gt; Semântica (que tem um sentido).</p>
+    <h2>Itálico / Ênfase</h2>
+    <p>Nesta frase temos um <i>termo em itálico</i> usando a tag &lt;i&gt; NÃO Semântica (apenas forma sem sentido)</p>
+    <h2>Texto Marcado</h2>
+    <p>podemos criar também <mark style="background-color: rgb(6, 248, 6);"> texto marcado</mark> usando a tag &lt;mark&gt;</p>
+    <p>E neste paragráfo temos outro <mark>texto marcado</mark>.</p>
+    <p>Perceba que no paragrafo acima o texto marcado não herdou o estilo do outro, pois alteramos apenas o primeiro<p>
+    <p>Se quiser tornar a alterção de estilo padrão no documento, você deve desenvolver as <strong>CSS</strong> na parte da cabeça (head) usando a tag &lt;style&gt;, declarando a tag mark (sem os couxetes angulares) abra e fecha chaves {} e dentro dos seletores use background-color: magenta; (exemplo).</p>
+    <p>Observe que agora toda vez que a tag <mark>MARK</mark> for invocada ela se apresentará na <mark>cor</mark> de fundo <mark>magenta</mark>.</p>
+    <h2>Texto grande e pequeno</h2>
+    <p>temos aqui um <big>(texto grande)</big> usando a tag &lt;big&gt;. <mark style="background-color: red;">Observação esta tag esta obsoleta</mark></p>
+    <p>Neste parágrafo temos um <small>(texto pequeno)</small> usando a tag &lt;small&gt;. Esta tag ainda esta em uso no HTML5</p>
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar <del>um texto como excluído</del> para indicar que ele deve ser ligo, mas não considerado, use a tag &lt;del&gt;.</p>
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar <ins>um texto como inserido</ins> para dar ênfase e indicar que ele foi adicionado depois, use a tag &lt;ins&gt;</p>
+    <p>Existe também o <u>Sublinhado</u> com a tag &lt;u&gt; (Não Semântica).</p>
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3. use a tag &lt;sup&gt;.</p>
+    <h2>Texto Subscrito</h2>
+    <p>Para inserir coisas do tipó H<sub>2</sub>O. use a tag &lt;sub&gt;.</p>
+
+
+
+</body>
+</html>

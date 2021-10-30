@@ -1,0 +1,27 @@
+@charset "UTF-8"; /* @ é uma regra, neste caso é sobre compatibilidade de acentuação. */
+* {
+    font-family: Arial, Helvetica, sans-serif; /* familia da fonte */
+}
+p {
+    text-align:justify; /* texto justificado */
+}
+body { 
+    background-image:linear-gradient(to right, #F3FEB0, #abb8a8) /* Degradê para direita */
+}
+main {
+    background-color:white; /* corde fundo */
+    width: 600px; /* largura */
+    padding: 15px; /* espaçamento das laterais */
+    margin:auto; /* centralizando main */
+    border-radius: 10px; /* curva das bordas */
+            box-shadow: 5px 5px 15px rgba(99, 104, 98, 0.63); /* sombreamento em 3 parâmetros (1º o quanto esta sombra vai andar para o lado, 2º o quanto essa sombra vai andar para baixo, 3º o quanto essa sombra vai espalhar.) */
+}
+h1 {
+    color:#812F33; /* cor do H1 */
+    text-align:center;
+    text-shadow: 1px 1px 2px #4d1c1eb2;
+
+}
+h2 {
+    color:#FEA443; /* cor do h2 */
+}

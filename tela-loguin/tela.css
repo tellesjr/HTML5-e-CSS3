@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+
+    background-image: linear-gradient(120deg, #0C46E8, #0D8CFF);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.barril {
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px
+    
+}
+
+.card {
+
+    background-color: #920dffde;
+    padding: 30px;
+    border-radius: 4%;
+    box-shadow: 3px 3px 3px 1px #096cc9c0;
+
+}
+
+h1 {
+
+    text-align: center;
+    margin-bottom: 20px;
+    color: #330aa1;
+
+}
+
+.label-float input {
+
+    width: 100%;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid #3f0dc9;
+    background-color: transparent;
+    outline: none;
+    min-width: 180px;
+    font-size: 16px;
+    transition: all .3s ease-out;
+    border-radius: 0;
+
+}
+
+.label-float {
+
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.label-float input:focus{
+
+    border-bottom: 2px solid #0D8CFF;
+
+}
+
+.label-float label {
+
+    color: #2a0449;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 13px;
+    transition: all .3s ease-out;
+
+}
+
+.label-float input:focus + label,
+.label-float input:valid + label {
+
+    font-size: 13px;
+    margin-top: 0;
+    color: #0D8CFF;
+
+}
+
+button {
+    background-color: transparent;
+    border-color: #072370;
+    color: #072370;
+    padding: 7px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor:pointer;
+    outline: none;
+
+}
+
+button:hover {
+
+    background-color: #072370;
+    color: #ffffff;
+    transition: all .3s;
+
+}
+
+.justify-center {
+
+display: flex;
+justify-content: center;
+
+}
+
+hr {
+
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 60%;
+
+}
+
+p{
+
+    color: #072370;
+    font-size: 16px;
+}
+
+a {
+
+    color:#4e0788;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .3s ease-out;
+
+}
+
+a:hover {
+    
+    color: #270444;
+
+}
